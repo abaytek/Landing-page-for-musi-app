@@ -1,0 +1,65 @@
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta__heading {
+    padding: 1rem 0;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    border-bottom: 2px solid orangered;
+
+}
+
+.cta__icon {
+    padding: 1rem;
+    background: white;
+    border-radius: 50%;
+    margin: 0 1rem;
+
+}
+
+.cta__btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media(max-width: 768px) {
+    .cta__btnContainer {
+        flex-direction: column;
+        /* padding: 1rem 0; */
+    }
+}
+
+.cta__download {
+    padding: 1.5rem 1rem;
+    background: white;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.1), 3px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #222;
+    text-decoration: none;
+    width: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.google:hover {
+    background: #111;
+    color: white;
+}
+
+.apple:hover {
+    background: orangered;
+    color: white;
+}

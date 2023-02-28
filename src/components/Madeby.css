@@ -1,0 +1,14 @@
+.madeby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.madeby p {
+    color: #333;
+    font-size: 1.2rem;
+    font-style: italic;
+    cursor: none;
+    font-weight: 900;
+}

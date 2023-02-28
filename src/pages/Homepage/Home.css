@@ -1,0 +1,20 @@
+@import url('../../App.css');
+
+.home__left {
+    color: var(--primary);
+}
+
+.home__logo {
+    font-size: 40px;
+}
+
+.home_right {
+    color: var(--primary);
+}
+
+.home__rightIcon {
+    font-size: 40px;
+    margin-left: 1rem;
+    cursor: pointer;
+    color: var(--primary);
+}
